@@ -7,6 +7,9 @@ button.addEventListener("click",()=>{
 const getPersondata=async()=>{
 
     try{
+        const url=`https://randomuser.me/api`
+        let res=await fetch(url)
+        let data=await res.json()
 
     }catch(error){
 
